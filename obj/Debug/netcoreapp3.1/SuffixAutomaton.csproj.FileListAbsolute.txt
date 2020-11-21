@@ -1,0 +1,44 @@
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.exe
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.deps.json
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.runtimeconfig.json
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.runtimeconfig.dev.json
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.dll
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.pdb
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.csprojAssemblyReference.cache
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\View\Windows\MainWindow.g.cs
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton_MarkupCompile.cache
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton_MarkupCompile.lref
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\View\Windows\MainWindow.baml
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.g.resources
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.AssemblyInfoInputs.cache
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.AssemblyInfo.cs
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.dll
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.pdb
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\MyLibrary.dll
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\MyLibrary.pdb
+D:\Проекты  в студии\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.csproj.CopyComplete
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.exe
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.deps.json
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.runtimeconfig.json
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.runtimeconfig.dev.json
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.dll
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\SuffixAutomaton.pdb
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\MyLibrary.dll
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\bin\Debug\netcoreapp3.1\MyLibrary.pdb
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.csprojAssemblyReference.cache
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\View\Windows\MainWindow.g.cs
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\App.g.cs
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton_MarkupCompile.cache
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton_MarkupCompile.lref
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\View\Windows\MainWindow.baml
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.g.resources
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.AssemblyInfoInputs.cache
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.AssemblyInfo.cs
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.csproj.CoreCompileInputs.cache
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.csproj.CopyComplete
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.dll
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.pdb
+D:\GarbageCan\Projects\VisualStudio\Semester_5\Algorithms\SuffixAutomaton\obj\Debug\netcoreapp3.1\SuffixAutomaton.genruntimeconfig.cache

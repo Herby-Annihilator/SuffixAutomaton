@@ -1,0 +1,115 @@
+﻿<Window x:Class="SuffixAutomaton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:SuffixAutomaton.ViewModels"
+        xmlns:local="clr-namespace:SuffixAutomaton"
+        mc:Ignorable="d"
+        Title="{Binding Path=Title}" Height="450" Width="817">
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Exit"/>
+                <MenuItem Header="Save" Command="{Binding SaveToFileCommand}"/>
+                <MenuItem Header="Restore" Command="{Binding RestoreFromFileCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Help">
+
+            </MenuItem>
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock Text="{Binding Status}"></TextBlock>
+        </StatusBar>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="13*"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="32*"/>
+                </Grid.RowDefinitions>
+                <TextBox Grid.Row="0" TextWrapping="Wrap"
+                         Text="{Binding SourceText, UpdateSourceTrigger=PropertyChanged}"/>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Сохранить в файл" Margin="3" Command="{Binding SaveToFileCommand}"/>
+                    <Button Content="Построить автомат" Margin="3" Command="{Binding Path=BuiltAutomatonCommand}"/>
+                    <Button Content="Восстановить из файла" Margin="3" Command="{Binding RestoreFromFileCommand}"/>
+                </StackPanel>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Матрица смежности автомата"/>
+                            <TextBox Grid.Row="1" Text="{Binding Path=Matrix, Mode=OneWay}" Margin="3,0,3,0"/>
+                        </Grid>
+                    </Grid>
+                    
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"
+                               Content="Таблица суффиксных ссылок"/>
+                        <DataGrid Grid.Row="1" CanUserAddRows="False"
+                                  CanUserDeleteRows="False"
+                                  CanUserReorderColumns="False"
+                                  CanUserSortColumns="False"
+                                  AlternatingRowBackground="Azure"
+                                  ItemsSource="{Binding Path=ConditionsPairIDs}"
+                                  AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID состояния" Width="*" Binding="{Binding Path=FirstConditionID}"/>
+                                <DataGridTextColumn Header="Переход" Width="*" Binding="{Binding Path=Direction}"/>
+                                <DataGridTextColumn Header="ID другого состояния" Width="*" Binding="{Binding Path=SecondConditionID}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                       Content="Редактируйте таблицу ниже, чтобы выполнить задание"/>
+                <DataGrid Grid.Row="1" AutoGenerateColumns="False" 
+                          HorizontalContentAlignment="Left" 
+                          CanUserReorderColumns="False"
+                          CanUserAddRows="True"
+                          CanUserDeleteRows="True"
+                          CanUserSortColumns="False"
+                          AlternatingRowBackground="LightGray"
+                          VerticalGridLinesBrush="DarkGray"
+                          GridLinesVisibility="Vertical" HorizontalGridLinesBrush="DarkGray"
+                          ItemsSource="{Binding Path=StringOccurrenceInfo}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Искомая строка" CanUserSort="False" Width="7*" 
+                                            Binding="{Binding Path=Substring, Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Число вхождений" IsReadOnly="True" Width="3*" 
+                                            Binding="{Binding Path=OccurrencesCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Button Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Content="Начать поиск" Margin="3,0"
+                        Command="{Binding Path=StartSearchCommand}"/>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>
